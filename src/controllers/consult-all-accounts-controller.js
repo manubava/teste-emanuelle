@@ -6,3 +6,6 @@ export class ConsultAllAccountsController {
     return res.status(200).send(response);
   }
 }
+
+
+

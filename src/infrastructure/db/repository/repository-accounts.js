@@ -17,3 +17,4 @@ export class RepositoryAccount {
         return await AccountSchema.find();
     }
 }
+

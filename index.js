@@ -10,10 +10,18 @@ server.use(
     extended: true,
   })
 );
+
 server.use(cors());
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 const port = 5000;
+
+
+
+
+
+
+
 
 server.listen(port, async () => {
   console.log(`Server is running`);
@@ -23,3 +31,6 @@ server.listen(port, async () => {
     server.use(`/api`, Accounts);
   });
 });
+
+
+
